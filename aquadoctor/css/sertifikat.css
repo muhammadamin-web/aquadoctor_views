@@ -1,0 +1,89 @@
+.sertifikat {
+    margin-top: 50px;
+}
+
+.sertifikat_box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.sertifikat_card {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sertifikat_img{
+    max-width: 350px;
+    height: 480px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.sertifikat_text,
+#modal-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+}
+.modal-img{
+    max-width: 100%;
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content2 {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    height: 650px;
+    text-align: center;
+
+}
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media (max-width:680px) {
+    .modal-content2 {
+        background-color: #fefefe;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 500px;
+        height: 400px;
+        text-align: center;
+    
+    }
+}
